@@ -1,26 +1,31 @@
-# Byte de Estilo
+# ByteStyle
 
-Bem-vindo à loja online da Byte de Estilo, onde você encontra as últimas tendências em moda digitalmente chic! Nosso website, desenvolvido com o poderoso framework React, oferece uma experiência de compra única e conveniente para os amantes da moda.
+Welcome to the ByteStyle online store, where you can find the latest trends in digitally chic fashion! Our website, powered by the powerful React framework, offers a unique and convenient shopping experience for fashion lovers.
 
-## Sobre
+## About
 
-A Byte de Estilo é uma boutique online que combina moda e tecnologia, oferecendo uma seleção exclusiva de roupas e acessórios inspirados nas últimas tendências digitais. Com uma interface intuitiva e designs modernos, estamos aqui para ajudá-lo a expressar sua individualidade e estilo.
+ByteStyle is an online boutique that combines fashion and technology, offering an exclusive selection of clothes and accessories inspired by the latest digital trends. With an intuitive interface and modern designs, we're here to help you express your individuality and style.
 
 ## Libraries
 
-- **React Router DOM**: Permite a navegação entre diferentes páginas com base nas URLs.
+- **React Router DOM**: Allows navigation between different pages based on URLs.
+- **Bootstrap**: Allows you to use custom and ready-made components, saving development time.
+- **MUI**: It guarantees a good user experience, just like bootstrap, facilitating the development of high-quality components.
 
-## Recursos
+## Resources
 
-- **Exploração Fácil**: Navegue por nossa ampla seleção de produtos de forma rápida e intuitiva.
-- **Pagamento Seguro**: Oferecemos várias opções de pagamento seguro para sua conveniência.
+- **Easy Exploration**: Browse our wide selection of products quickly and intuitively.
+- **Secure Payment**: We offer several secure payment options for your convenience.
 
-## Como Executar
+## How to use
 
-1. Clone este repositório para sua máquina local.
-2. Certifique-se de ter o Node.js instalado.
-3. No terminal, navegue até o diretório raiz do projeto.
-4. Execute `npm install` para instalar as dependências.
-5. Execute `npm start` para iniciar o servidor de desenvolvimento.
-6. Abra seu navegador e visite `http://localhost:3000` para visualizar o website.
+1. Clone this repository to your local machine.
+2. Make sure you have Node.js installed.
+3. In the terminal, navigate to the project root directory.
+4. Run `npm install` to install dependencies.
+5. Run `npm start` to start the development server.
+6. Open your browser and visit `http://localhost:3000` to view the website.
 
+## Drive with resources
+
+https://drive.google.com/drive/folders/1tlD3iHTz133jI-DhLtycJhtqQH9RgkiL?usp=drive_link
