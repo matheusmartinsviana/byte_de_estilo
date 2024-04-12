@@ -6,6 +6,10 @@ Bem-vindo à loja online da Byte de Estilo, onde você encontra as últimas tend
 
 A Byte de Estilo é uma boutique online que combina moda e tecnologia, oferecendo uma seleção exclusiva de roupas e acessórios inspirados nas últimas tendências digitais. Com uma interface intuitiva e designs modernos, estamos aqui para ajudá-lo a expressar sua individualidade e estilo.
 
+## Libraries
+
+- **React Router DOM**: Permite a navegação entre diferentes páginas com base nas URLs.
+
 ## Recursos
 
 - **Exploração Fácil**: Navegue por nossa ampla seleção de produtos de forma rápida e intuitiva.

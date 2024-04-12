@@ -1,9 +1,5 @@
-
+import AppRoutes from "./routes/AppRoutes";
 
 export default function App() {
-  return (
-    <div>
-      <h1>Hello, world!</h1>
-    </div>
-  );
+  return <AppRoutes /> // <AppRoutes /> é o componente que contém as rotas do site
 }
