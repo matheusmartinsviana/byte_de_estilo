@@ -24,7 +24,7 @@ export default function Footer() {
                 <Row>
                     <Col md={4}>
                         <h4>ByteStyle Contato</h4>
-                        <p>Telefone: <a href="https://api.whatsapp.com/send/?phone=5547996570396&text&type=phone_number&app_absent=0" style={{ color: '#007bff' }}> (47) 9657-0396</a></p>
+                        <p>Telefone: <a href="https://api.whatsapp.com/send/?phone=5547996570396&text&type=phone_number&app_absent=0" style={{ color: '#007bff' }}> (47) 99657-0396</a></p>
                         <p>Email: <a href="mailto:matheusmviana@outlook.com.br" style={{ color: '#007bff' }}>contato@bytestyle.com</a></p>
                         <p>Endereço: www.bytestyle.com, 3000 - localhost</p>
                     </Col>

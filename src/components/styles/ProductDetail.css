@@ -67,3 +67,14 @@ body {
     font-size: 14px;
     color: #6c757d;
 }
+
+@media screen and (max-width: 768px) {
+    .product-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-info {
+        margin-left: 0;
+    }
+}
