@@ -4,8 +4,8 @@ import Error from '../pages/Error';
 import Initial from '../pages/Initial';
 import Products from '../pages/Products';
 import Contact from '../pages/Contact';
+import ProductDetails from '../pages/ProductDetails';
 import Body from '../layouts/Body';
-//depois devo fazer as importações das páginas
 
 export default function AppRoutes() {
     return (
@@ -15,6 +15,7 @@ export default function AppRoutes() {
                     <Route path="/inicio" element={<Initial />} />
                     <Route path="*" element={<Error />} /> {/* O (*) é um curinga que indica que qualquer rota que não foi definida acima, direcionará para o componente <Error> */}
                     <Route path="/produtos" element={<Products />} />
+                    <Route path="/product/:productId" component={ProductDetails} />
                     <Route path="/contato" element={<Contact />} />
                 </Route>
             </Routes>

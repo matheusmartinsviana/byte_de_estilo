@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-export default function ProductDetails() {
+export default function ProductDetails({ location }) {
+    const { isZoomed } = location.state;
+
     return (
         <div>
-            <h1>Detalhes do Produto</h1>
+            {isZoomed && (
+                <div className="zoomed-card">
+                    {/* Conteúdo da página de detalhes do produto */}
+                </div>
+            )}
+            {/* Outro conteúdo da página de detalhes do produto */}
         </div>
-    )
+    );
 }

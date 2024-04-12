@@ -1,4 +1,4 @@
-import { GitHub, LinkedIn } from '@mui/icons-material';
+import { GitHub } from '@mui/icons-material';
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Alert from 'react-bootstrap/Alert';
@@ -30,9 +30,6 @@ export default function Footer() {
                     </Col>
                     <Col md={4}>
                         <h4>Redes sociais</h4>
-                        <a href="https://www.linkedin.com/in/matheusmartinsviana/" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff' }}>
-                            <LinkedIn /> owner
-                        </a>
                         <br />
                         <a href="https://github.com/matheusmartinsviana/byte_de_estilo" target="_blank" rel="noopener noreferrer" style={{ color: '#007bff' }}>
                             <GitHub /> ownersByteStyle

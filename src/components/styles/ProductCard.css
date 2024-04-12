@@ -1,0 +1,14 @@
+.product-card {
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.card-zoom {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.product-card:hover .card-zoom {
+    transform: scale(1.1);
+}
