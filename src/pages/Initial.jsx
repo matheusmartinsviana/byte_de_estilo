@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import orangeTechClothes from '../images/clothes.webp';
 import blueTechClothes from '../images/orangeTechClothes.webp';
+import HighlightProducts from '../components/HighlightProducts';
 
 function Initial() {
     const [hovered, setHovered] = useState(false); // Estado para controlar se o mouse está sobre a imagem
@@ -44,7 +45,8 @@ function Initial() {
                     </div>
                 </Col>
             </Row>
-        </Container>
+            <HighlightProducts />
+            </Container >
     );
 }
 
