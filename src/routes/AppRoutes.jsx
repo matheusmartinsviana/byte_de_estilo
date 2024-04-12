@@ -15,7 +15,7 @@ export default function AppRoutes() {
                     <Route path="/inicio" element={<Initial />} />
                     <Route path="*" element={<Error />} /> {/* O (*) é um curinga que indica que qualquer rota que não foi definida acima, direcionará para o componente <Error> */}
                     <Route path="/produtos" element={<Products />} />
-                    <Route path="/product/:productId" component={ProductDetails} />
+                    <Route path="/product/:id" element={<ProductDetails />} />
                     <Route path="/contato" element={<Contact />} />
                 </Route>
             </Routes>
