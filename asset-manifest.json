@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/byte_de_estilo/static/css/main.a7a6757b.css",
+    "main.js": "/byte_de_estilo/static/js/main.19f45133.js",
+    "static/media/Jacket2.webp": "/byte_de_estilo/static/media/Jacket2.cfa885c3e36e9bea2e74.webp",
+    "static/media/clothes.webp": "/byte_de_estilo/static/media/clothes.f91fdef14c936e9c81f6.webp",
+    "static/media/Pack.webp": "/byte_de_estilo/static/media/Pack.59b6dfb0167a0075bc65.webp",
+    "static/media/orangeTechClothes.webp": "/byte_de_estilo/static/media/orangeTechClothes.cbd218465f53e734dec2.webp",
+    "static/media/Hat.webp": "/byte_de_estilo/static/media/Hat.04461ffced8a92a8bbea.webp",
+    "static/media/Watch.webp": "/byte_de_estilo/static/media/Watch.ad6cedb696fc593941b9.webp",
+    "static/media/Pants.webp": "/byte_de_estilo/static/media/Pants.5785412b2c9b8e204283.webp",
+    "static/media/Casual.webp": "/byte_de_estilo/static/media/Casual.33916bdb6f5d0a9c6af5.webp",
+    "static/media/Shirt.webp": "/byte_de_estilo/static/media/Shirt.1877898d78bb0731976c.webp",
+    "static/media/Jacket.webp": "/byte_de_estilo/static/media/Jacket.be89f47ea93b80ed5847.webp",
+    "static/media/logoByteStyle.webp": "/byte_de_estilo/static/media/logoByteStyle.2ae4049230c5b43761e0.webp",
+    "index.html": "/byte_de_estilo/index.html",
+    "main.a7a6757b.css.map": "/byte_de_estilo/static/css/main.a7a6757b.css.map",
+    "main.19f45133.js.map": "/byte_de_estilo/static/js/main.19f45133.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7a6757b.css",
+    "static/js/main.19f45133.js"
+  ]
+}
