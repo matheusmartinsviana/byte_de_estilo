@@ -1,0 +1,13 @@
+.ctaButton {
+    background-color: #306EFC;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.ctaButton:hover {
+    background-color: rgb(11, 91, 196);
+    transition: all ease-in-out 0.5s;
+    color: rgb(202, 202, 202);
+}

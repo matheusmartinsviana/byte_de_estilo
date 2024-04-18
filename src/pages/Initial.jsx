@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
+import HighlightProducts from '../components/HighlightProducts';
 import orangeTechClothes from '../images/clothes.webp';
 import blueTechClothes from '../images/orangeTechClothes.webp';
-import HighlightProducts from '../components/HighlightProducts';
+import './styles/Initial.css';
+
 
 function Initial() {
     const [hovered, setHovered] = useState(false); // Estado para controlar se o mouse está sobre a imagem
@@ -30,7 +31,7 @@ function Initial() {
                     <div className="text-center text-md-start" style={{ color: 'white' }}>
                         <h1 className="display-4">Inovação a cada confecção</h1>
                         <p className="lead">A <strong>ByteStyle</strong> atua no desenvolvimento de roupas tecnológicas.</p>
-                        <Button variant="primary" size="lg">Veja Mais</Button>
+                        <a href="/produtos" className="ctaButton">Ver Produtos</a>
                     </div>
                 </Col>
                 <Col md={6}>
