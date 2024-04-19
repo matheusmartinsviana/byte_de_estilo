@@ -38,7 +38,7 @@ export default function Footer() {
                     <Col md={4}>
                         <h4>Mapa do site</h4>
                         <ul style={{ listStyle: 'none', padding: 0 }}>
-                            <li><a href="/inicio" style={{ color: '#007bff' }}>Inicio</a></li>
+                            <li><a href="/" style={{ color: '#007bff' }}>Inicio</a></li>
                             <li><a href="##" style={{ color: '#007bff' }}>Produtos</a></li>
                             <li><a href="##" style={{ color: '#007bff' }}>Contato</a></li>
                         </ul>
