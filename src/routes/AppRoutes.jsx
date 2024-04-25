@@ -12,7 +12,7 @@ export default function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Body />} > {/* O <Body> é o componente que contém o cabeçalho e o rodapé (ele sempre vai aparecer em todas rotas) */}
-                    <Route path="/" element={<Initial />} />
+                    <Route path="/inicio" element={<Initial />} />
                     <Route path="/produtos" element={<Products />} />
                     <Route path="/product/:id" element={<ProductDetails />} />
                     <Route path="/contato" element={<Contact />} />
