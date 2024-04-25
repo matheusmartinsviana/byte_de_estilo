@@ -7,7 +7,7 @@ import orangeTechClothes from '../images/clothes.webp';
 import blueTechClothes from '../images/orangeTechClothes.webp';
 import './styles/Initial.css';
 
-//comentario inicial 
+//comentario inicial
 function Initial() {
     const [hovered, setHovered] = useState(false); // Estado para controlar se o mouse está sobre a imagem
 
