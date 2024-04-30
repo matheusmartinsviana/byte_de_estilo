@@ -15,11 +15,12 @@ function NavScrollExample() {
         <>
             <Navbar expand="lg" className="bg-body-tertiary" style={{ height: '90px' }} expanded={isNavbarOpen}>
                 <Container fluid>
-                    <Navbar.Brand href="#">
+                    <Navbar.Brand href="/">
                         <img src={logoByteStyle}
                             alt="Logotipo da marca ByteStyle"
                             width="90"
                             height="90"
+                            
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" onClick={handleNavbarToggle} />
@@ -30,11 +31,18 @@ function NavScrollExample() {
                     }}>
                         <Nav
                             className="me-auto my-2 my-lg-0"
+<<<<<<< HEAD
                             style={{
                                 maxHeight: '150px',
                             }}
                             navbarScroll>
                             <Nav.Link href="/inicio">Inicio</Nav.Link>
+=======
+                            style={{ maxHeight: '150px'}}
+                            navbarScroll
+                        >
+                            <Nav.Link href="/">Inicio</Nav.Link>
+>>>>>>> c152cba91e44fecf8a9457ebdae94586fe8dc546
                             <Nav.Link href="/produtos">Produtos</Nav.Link>
                             <Nav.Link href="/contato">Contato</Nav.Link>
                             <Nav.Link href="/login"><Button>Login</Button></Nav.Link>                            

@@ -10,7 +10,7 @@ export default function Error() {
                 <h1 className="error-title">Erro 404</h1>
                 <p className="error-message">Oops! Parece que você se perdeu...</p>
                 <p className="error-message">A página que você está procurando não existe.</p>
-                <Link to="/inicio" className="error-link">Voltar para a página inicial</Link>
+                <Link to="/" className="error-link">Voltar para a página inicial</Link>
             </div>
         </div>
     );
