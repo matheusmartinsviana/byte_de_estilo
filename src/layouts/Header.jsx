@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import logoByteStyle from '../images/logoByteStyle.webp';
+import Button from 'react-bootstrap/Button';
 
 function NavScrollExample() {
     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -22,15 +23,21 @@ function NavScrollExample() {
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" onClick={handleNavbarToggle} />
-                    <Navbar.Collapse id="navbarScroll">
+                    <Navbar.Collapse id="navbarScroll" 
+                    style={{                        
+                        flexBassis: '0',
+                        flexGrow: '0',
+                    }}>
                         <Nav
                             className="me-auto my-2 my-lg-0"
-                            style={{ maxHeight: '150px'}}
-                            navbarScroll
-                        >
+                            style={{
+                                maxHeight: '150px',
+                            }}
+                            navbarScroll>
                             <Nav.Link href="/inicio">Inicio</Nav.Link>
                             <Nav.Link href="/produtos">Produtos</Nav.Link>
                             <Nav.Link href="/contato">Contato</Nav.Link>
+                            <Nav.Link href="/login"><Button>Login</Button></Nav.Link>                            
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
