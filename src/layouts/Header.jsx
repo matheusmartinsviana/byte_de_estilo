@@ -32,6 +32,7 @@ function NavScrollExample() {
                             <Nav.Link href="/inicio">Inicio</Nav.Link>
                             <Nav.Link href="/produtos">Produtos</Nav.Link>
                             <Nav.Link href="/contato">Contato</Nav.Link>
+                            <Nav.Link href="/sobre">Sobre</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

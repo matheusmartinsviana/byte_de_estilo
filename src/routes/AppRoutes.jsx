@@ -6,6 +6,7 @@ import Error from '../pages/Error';
 import Initial from '../pages/Initial';
 import ProductDetails from '../pages/ProductDetails';
 import Products from '../pages/Products';
+import Sobre from '../pages/Sobre';
 
 export default function AppRoutes() {
     return (
@@ -16,6 +17,7 @@ export default function AppRoutes() {
                     <Route path="/produtos" element={<Products />} />
                     <Route path="/product/:id" element={<ProductDetails />} />
                     <Route path="/contato" element={<Contact />} />
+                    <Route path="/sobre" element={<Sobre />} />
                     <Route path="*" element={<Error />} /> {/* O (*) é um curinga que indica que qualquer rota que não foi definida acima, direcionará para o componente <Error> */}
                 </Route>
             </Routes>
