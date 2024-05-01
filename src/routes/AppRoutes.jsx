@@ -1,6 +1,7 @@
 import React from 'react'; //importar o React  é importante para que o arquivo .JSX funcione corretamente
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Body from '../layouts/Body';
+
 import Contact from '../pages/Contact';
 import Error from '../pages/Error';
 import Initial from '../pages/Initial';
