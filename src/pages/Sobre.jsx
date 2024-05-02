@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./styles/Sobre.css";
 
 function Sobre() {
@@ -12,6 +11,7 @@ function Sobre() {
           paddingBottom: '20px',
         }}
       >
+
         Sobre nós
       </h1>
       <div class="sobre-content">
