@@ -1,8 +1,9 @@
 .sobre-container {
-    display: flex;
+    display: flex !important;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    min-height: 50vh;
     background: #0F2027;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
@@ -12,6 +13,8 @@
 }
 
 .sobre-content {
+    display: flex;
+    flex-direction: row;
     text-align: center;
 }
 
@@ -22,8 +25,15 @@
 }
 
 .sobre-message {
+    width: 500px;
     font-size: 15px;
     color: white;
     margin-left: 80px;
     margin-right: 80px;
+}
+
+@media screen and (max-width: 1124px) {
+    .sobre-content {
+        flex-direction: column;
+    }
 }

@@ -4,13 +4,17 @@ import "./styles/Sobre.css";
 function Sobre() {
   return (
     <div class="sobre-container">
+      <h1
+        className="display-4"
+        style={{
+          color: "white",
+          marginBottom: "15px",
+          paddingBottom: '20px',
+        }}
+      >
+        Sobre nós
+      </h1>
       <div class="sobre-content">
-        <h1
-          className="display-4"
-          style={{ color: "white", marginBottom: "15px" }}
-        >
-          Sobre nós
-        </h1>
         <p class="sobre-message">
           Na <strong>ByteStyle</strong>, não estamos apenas no negócio de vestir
           pessoas. Estamos no negócio de potencializar experiências. Fundada na
